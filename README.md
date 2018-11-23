@@ -1,2 +1,2 @@
-# Chalenges
-all chalenges
+# Challenges
+all challenges
