@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+<head>
+    <title>Form With Validation</title>
+  </head>
+  
+  <body>
+    <h1>Registration Form</h1>
+     
+      <form>
+        <p>
+          User id:
+          <input type="text" name="id" maxlength="12" minlength="5" required  width="70" height="30">
+        </p>
+        <p>
+          Password:
+          <input type="password" name="" maxlength="12" minlength="7" required>
+        </p>
+        <p>
+          Name:
+          <input type="text" name="name" pattern="[A-Za-A-A-Za-A-A-Za-A-A-Za-A-Za-A-Za]" required title="Please use alphabet characters only">
+        </p>
+        <p>Adress:
+          <input type="text" name="address">
+        </p>
+        <p>Country:
+          <select name="country" required>
+              <option value="sa">South Africa</option>
+              <option value="peru">Sweaden</option>
+              <option value="scotland">Russia</option>
+              <option value="mexico">England</option>
+          </select>
+        </p>
+        <p>
+          ZIP Code:
+          <input type="number" name="zip" required>
+        </p>
+        <p>
+          Email:
+          <input type="email" name="email" required>
+        </p>
+        <p>
+          Sex:
+          <input type="radio" name="sex" value="male"> Male
+          <input type="radio" name="sex" value="female" required> Female
+        </p>
+        <p>
+          Language:
+          <input type="checkbox" name="eng">English
+          <input type="checkbox" name="eng">Non-English</p>
+
+        <p>
+          About:
+        <br>
+          <textarea name="name" rows="10" cols="30"></textarea>
+        </p>
+
+        <p>
+          <input type="submit" name="submit" value="Submit">
+        </p>
+      </form>
+  </body>
+</html>
